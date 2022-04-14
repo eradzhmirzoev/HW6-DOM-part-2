@@ -1,7 +1,7 @@
 let figure = document.querySelector('.section__show > div');
 let select = document.querySelector('.select');
 let inp = document.querySelector('.inp');
-const btn = document.querySelector('.btn');
+const addTask = document.querySelector('.addTask');
 
 (function standardBehavior() {
     figure.className = select.value;
@@ -18,5 +18,5 @@ function changeColor() {
 
 
 select.addEventListener('change', changeFigure);
-btn.addEventListener('click', changeColor);
+addTask.addEventListener('click', changeColor);
 

@@ -21,7 +21,7 @@ body {
 
 .select,
 .inp,
-.btn {
+.addTask {
     flex-basis: 200px;
     flex-shrink: 0;
     flex-grow: 0;
