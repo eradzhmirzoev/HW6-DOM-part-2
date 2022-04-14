@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.section__action {
+    display: flex;
+    justify-content: center;
+}
+
+.select,
+.inp,
+.btn {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.section__show {
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    height: 70%;
+    width: 70%;
+}
+
+.circle {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.rectangle {
+    height: 70%;
+    width: 100%;
+}
